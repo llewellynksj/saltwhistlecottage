@@ -1,3 +1,7 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Ubuntu&display=swap');
+
+
 /* remove default styles */
 * {
     margin: 0;
