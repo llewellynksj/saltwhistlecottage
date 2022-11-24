@@ -9,6 +9,18 @@
 
     <link rel="stylesheet" href="assets/css/styles.css">
 
+    <!-- javascript code -->
+    <script>
+        function myFunction() {
+          var x = document.getElementById("navBar");
+          if (x.style.display === "block") {
+            x.style.display = "none";
+          } else {
+            x.style.display = "block";
+          }
+        }
+        </script>
+
     <title>Salt Whistle Cottage</title>
 </head>
 
@@ -20,33 +32,22 @@
                 <a href="index.html">Salt Whistle Cottage</a>
             </h1>
         </div>
+        <nav id="navBar">
+            <a href="index.html">Home</a>
+            <a href="explore.html">Explore Salt Whistle</a>
+            <a href="about.html">About</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="reviews.html">Reviews</a>
+            <a href="nearby.html">Nearby</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+        <!-- hamburger menu -->
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa-solid fa-bars"></i>
+        </a>
     </header>    
 
-    <nav>
-        <ul>
-            <li>
-                <a>Home</a>
-            </li>
-            <li>
-                <a>Explore Salt Whistle</a>
-            </li>
-            <li>
-                <a>About</a>
-            </li>
-            <li>
-                <a>Gallery</a>
-            </li>
-            <li>
-                <a>Reviews</a>
-            </li>
-            <li>
-                <a>Nearby</a>
-            </li>
-            <li>
-                <a>Contact Us</a>
-            </li>
-        </ul>
-    </nav>
+    
 
     <section>
         <div>Hero Image</div>
@@ -72,6 +73,10 @@
         </div>
         <h4>Copyright</h4>
     </footer>
+
+<!-- font awesome script -->
+<script src="https://kit.fontawesome.com/b59d6ce89e.js" crossorigin="anonymous"></script>
+
 </body>
 
 </html>
