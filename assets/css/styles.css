@@ -12,3 +12,7 @@
 }
 
 /* base styles */
+body {
+    color: #252525;
+    font-family: Ubuntu, sans-serif;
+}
